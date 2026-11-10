@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#155b46" />
+  <meta name="description" content="صدقة جارية على روح المرحومة هنادي علي محمد، دعاء وذكر ومسبحة إلكترونية." />
+  <title>صدقة جارية على روح هنادي علي محمد</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cairo:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="ornament" aria-hidden="true">۞</div>
+    <p class="eyebrow">صدقة جارية على روح</p>
+    <h1>المرحومة هنادي<br class="mobile-break"> علي محمد</h1>
+    <p class="hero-dua">اللهم ارحمها واغفر لها وأسكنها الفردوس الأعلى</p>
+    <a class="scroll-link" href="#dua">ابدأ بالدعاء <span>↓</span></a>
+  </header>
+
+  <main class="container">
+    <section class="card dua-card" id="dua">
+      <div class="section-heading"><span class="emoji">🤲</span><h2>دعاء لهنادي</h2></div>
+      <p class="dua-text" id="duaText">اللهم اغفر لهنادي علي محمد وارحمها، وعافها واعفُ عنها، وأكرم نُزلها، ووسّع مُدخلها، ونوّر قبرها، واجعل قبرها روضةً من رياض الجنة.</p>
+      <div class="actions">
+        <button class="btn btn-light" id="shareDua">مشاركة الدعاء</button>
+        <button class="btn btn-green" id="nextDua">دعاء آخر</button>
+      </div>
+    </section>
+
+    <section class="card" id="tasbeeh">
+      <div class="section-heading"><span class="emoji">📿</span><h2>المسبحة الإلكترونية</h2></div>
+      <p class="muted">اجعل ذكرك ودعاءك خالصاً لله، وادعُ لها بالرحمة والمغفرة.</p>
+      <div class="counter" id="count">0</div>
+      <p class="zikr" id="zikr">سبحان الله</p>
+      <div class="tasbeeh-actions">
+        <button class="btn btn-green btn-large" id="countBtn">تسبيح +1</button>
+        <button class="btn btn-light" id="resetBtn">تصفير العداد</button>
+      </div>
+      <div class="zikr-options">
+        <button class="zikr-option active" data-zikr="سبحان الله">سبحان الله</button>
+        <button class="zikr-option" data-zikr="الحمد لله">الحمد لله</button>
+        <button class="zikr-option" data-zikr="الله أكبر">الله أكبر</button>
+        <button class="zikr-option" data-zikr="أستغفر الله">أستغفر الله</button>
+      </div>
+    </section>
+
+    <section class="card">
+      <div class="section-heading"><span class="emoji">🌿</span><h2>أذكار وأدعية</h2></div>
+      <div class="remembrance-list">
+        <article><h3>دعاء الرحمة</h3><p>اللهم ارحمها رحمةً واسعة، واغفر لها، واجعل ما أصابها رفعةً في درجاتها.</p></article>
+        <article><h3>دعاء النور</h3><p>اللهم نوّر قبرها، وآنس وحشتها، واجعل الجنة دارها وقرارها.</p></article>
+        <article><h3>دعاء المغفرة</h3><p>اللهم إنّ هنادي في ذمتك وحبل جوارك، فقِها فتنة القبر وعذاب النار.</p></article>
+        <article><h3>دعاء لأهلها</h3><p>اللهم اربط على قلوب أهلها، وارزقهم الصبر والسلوان، واجمعهم بها في جنات النعيم.</p></article>
+      </div>
+    </section>
+
+    <section class="card closing">
+      <div class="ornament small" aria-hidden="true">۞</div>
+      <h2>لا تنسوها من صالح دعائكم</h2>
+      <p>اللهم اجعل هذا العمل نوراً ورحمةً لها، وتقبّل من كل من دعا لها أو ساهم في نشر الخير.</p>
+      <button class="btn btn-green" id="shareSite">مشاركة الموقع</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>اللهم اغفر لها وارحمها وأسكنها فسيح جناتك</p>
+    <span>صدقة جارية على روح المرحومة هنادي علي محمد</span>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>
